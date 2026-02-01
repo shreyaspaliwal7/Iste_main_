@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap');
+
+
+
+
+@keyframes fadeInUpBlur {
+    0% {
+        opacity: 0;
+        transform: translateY(22px);
+        filter: blur(12px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(4px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+.animate-fadeInUpBlur {
+    animation: fadeInUpBlur 2s ease forwards;
+}
