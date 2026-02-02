@@ -132,7 +132,7 @@ const Navbar = () => {
 
           <img
             className='w-[5.5rem] md:w-[5.5rem] py-1'
-            src="https://www.istemanit.in/static/media/ISTElogo.a74f1bcec9b36f8b044934b3c92f6b69.svg"
+            src="/Images/Logo.svg"
             alt="ISTE Logo"
           />
 
